@@ -1,0 +1,287 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Microsoft YaHei;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	background: url(../images/2.jpg);
+}
+
+.w{
+	margin:50px auto;
+	overflow: hidden;
+	zoom:1;
+	width:872px;
+}
+
+ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+
+.side{
+	float:left;
+	width: 250px;
+	height: 480px;
+	border: solid 1px #ccc;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 0 2px #aaa;
+	background: whiteSmoke;
+}
+
+.own{
+	background: linear-gradient( 0deg, whiteSmoke 0%,whiteSmoke 40%, #fff 100%);
+	border-top-left-radius: 20px;
+}
+
+.own img{
+	height: 60px;
+	width: 60px;
+	margin: 15px;
+	background: white;
+	float: left;
+}
+
+.own span{
+	line-height: 90px;
+	display: block;
+	height: 90px;
+	margin-left: 90px;
+}
+
+.tabhead{
+	position: relative;
+	height: 30px;
+	width: 100px;
+	background: white;
+	border-top: solid 1px #eee;
+	border-right: solid 1px #eee;
+	box-shadow: 0 0 2px #ccc;
+	text-align: center;
+}
+
+.tabhead span{
+	position: relative;
+	z-index: 2;
+	line-height: 30px;
+}
+
+.tabhead b{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: white;
+	top: 8px;
+	left: 0;
+	z-index: 1;
+} 
+
+.tabul{
+	overflow: scroll;
+	height: 310px;
+	position: relative;
+	padding: 10px 0px;
+	background: white;
+	box-shadow: 0 2px 2px #eee inset;
+}
+
+.tabul li{
+	line-height: 70px;
+	position: relative;
+	border: solid 1px #eee;
+	cursor: pointer;
+}
+
+.tabul img{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 50px;
+	width: 50px;	
+}
+
+.tabul span{
+	margin-left:70px;
+}
+
+.foot{
+	height: 40px;
+	position: relative;
+	top: -15px;
+	background: whiteSmoke;
+	border-bottom-right-radius: 20px;
+}
+
+.foot span{
+	line-height: 40px;
+	float: right;
+	margin-right: 30px;
+	cursor: pointer;
+	padding-left: 15px;
+	position: relative;
+}
+
+.foot b{
+	font-size: 18px;
+	line-height: 40px;
+	position: absolute;
+	left: 0;
+}
+
+#content{
+	margin-left: 270px;
+	background: whiteSmoke;
+	border-top-right-radius:20px;
+	border-bottom-left-radius: 20px;
+	height:480px;
+	width:600px;
+	border:solid 1px #ccc;
+	box-shadow: 0 0 2px #aaa inset;
+}
+
+#tabcontent{
+	border-top-right-radius: 20px;
+	height: 300px;
+	border-bottom: solid 1px #ccc;
+	position: relative;
+	background: linear-gradient( 0deg, whiteSmoke 0%,whiteSmoke 98%, #fff 100%);
+}
+
+.whotab{
+	width:100%;
+	height:30px;
+	background: whiteSmoke;
+	border-top-right-radius: 20px;
+}
+
+.who{
+	float: left;
+	line-height: 31px;
+	width: 100px;
+	border-right: solid 1px #eee;
+	box-shadow: 0 0 2px #ccc inset;
+	text-align: center;
+	position: relative;
+	background: white;
+	cursor: pointer;
+}
+
+.who2{
+	background: linear-gradient( 0deg, whiteSmoke 0%,whiteSmoke 98%, #fff 100%);
+}
+
+.who span{
+	position: relative;
+	z-index: 3;
+}
+
+.who b{
+	position: absolute;
+	height: 100%;
+	width: 98%;
+	top: 5px;
+	left: 1px;
+	z-index: 2;
+	background: white;
+	display: none;
+}
+
+.lable{
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	height: 15px;
+	width: 15px;
+	cursor: pointer;
+	background: #eee;
+	z-index: 4;
+	border-radius: 8px;
+}
+
+.lable i{
+	position: absolute;
+	right: 6px;
+	top: 2px;
+	height: 10px;
+	-webkit-transform: rotate(-45deg);
+	border-left: solid 1px #aaa;
+	z-index: 4;
+}
+
+.lable em{
+	position: absolute;
+	right: 2px;
+	top: 6px;
+	width: 10px;
+	-webkit-transform: rotate(-45deg);
+	z-index: 4;
+	border-bottom: solid 1px #aaa;
+}
+
+.chat{
+	height: 239px;
+	width: 560px;
+	border-top: solid 1px #eee;
+	box-shadow: 0 0 2px #ccc inset;
+	background: white;
+	overflow: scroll;
+	padding: 20px;
+	list-style-type: none;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+.chat li{
+	width: 540px;
+	border-bottom: solid 1px #eee;
+	padding: 5px 0;
+	position: relative;
+}
+
+.chat i{
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+}
+
+
+.chat span{
+	display: block;
+	padding: 5px 0 5px 15px;	
+}
+
+.write{
+	height: 100px;
+	background: white;
+	margin-top: 35px;
+}
+
+.write textarea{
+	border: solid 1px #eee;
+	position: relative;
+	top: -2px;
+	left: -1px;
+	outline: 0;
+	padding: 3px 7px;
+}
+
+.submit{
+	width: 100px;
+	line-height: 30px;
+	background:#59bef4 ;
+	float: right;
+	margin-right: 20px;
+	margin-top: 9px;
+	text-align: center;
+	color:white;
+	cursor:pointer;
+}
+
+.jj{
+	float: left;
+}

@@ -1,0 +1,168 @@
+html, body{
+	margin:0;
+	padding: 0;
+}
+
+.w {
+	position: relative;
+	height: 600px; 
+	border:solid 1px #666;
+	background: url(../images/2.jpg) left bottom; 
+}
+
+.content {
+	position: absolute;
+	right: 60px;
+	top:15%;
+	border-radius:10px;
+	border:solid 1px #aaa;
+	box-shadow: 0 0 2px #999;
+	background: whiteSmoke;
+}
+
+.content h3 {
+	text-align: center;
+	margin-top: 10px;
+	color: #747474;
+	font-weight: bold;
+	background: #e4e4e4;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin:0px;
+	line-height: 40px;
+}
+
+.contentB {
+	padding:10px;
+}
+
+.contentB p {
+	position: relative;
+	margin: 30px;
+	height: 37px;
+}
+
+.ok{
+	position: absolute;
+	height: 37px;
+	width: 37px;
+	top: 0;
+	right: 0;
+	display: none;
+}
+
+
+.ok i{
+	position: absolute;
+	height: 10px;
+	top: 18px;
+	right: 28px;
+	-webkit-transform: rotate(-40deg);
+	border-left: solid 2px #7abd54;
+}
+
+.ok em{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 2px;
+	right: 15px;
+	-webkit-transform: rotate(-40deg);
+	border-bottom: solid 2px #7abd54;
+}
+
+.input {
+	width: 300px;
+	height: 25px;
+	padding: 5px;
+	color:#aaa;
+	border: solid 1px #eee;
+	background: white;
+	border-radius: 5px;
+	outline:0;
+}
+
+.input1 {
+	color:#666;
+}
+
+.contentB b {
+	position: absolute;
+	height: 37px;
+	width: 85px;
+	margin-left: 10px;
+	background: white;
+	border: solid 1px #eee;
+	border-radius: 5px;
+}
+
+.contentB input:focus {
+	border-color: #7abd54;
+}
+
+.contentB span {
+	position: absolute;
+	line-height: 20px;
+	top: -22px;
+	left: 10px;
+	font-size: 12px;
+	border: solid 1px #eee;
+	display: none; 
+}
+
+.contentB label {
+	float: left;
+	margin: 0 5px;
+	border: solid 1px #eee;
+	border-radius: 5px;
+	color:white;
+	line-height: 35px;
+	text-align: center;
+	cursor:pointer;
+}
+
+.lock{
+	position: absolute;
+	width: 160px;
+	height: 37px;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.register {
+	width: 156px;
+	background: #59bef4;
+	background: linear-gradient( 0deg, #59bef4 0%,#59bef4 80%, #fff 100%);
+	box-shadow:inset 0 2px  2px #3790BF;
+}
+
+.login {
+	width:85px;
+	background: #facb55;
+	background: linear-gradient( 0deg, #facb55 0%,#facb55 80%, #fff 100%);
+	box-shadow:inset 0 2px  2px #ec8b3e;
+}
+
+.login a {
+	text-decoration: none;
+	color:white;
+}
+
+.login a:hover {
+	text-decoration: underline;
+}
+
+.xinxi{
+	position: absolute;
+	line-height: 30px;
+	width: 100px;
+	background: #7abd54;
+	top: 150px;
+	left: 150px;
+	border-radius: 30px;
+	display: none; 
+	color: #e4393c;
+	text-align: center;
+}
+
